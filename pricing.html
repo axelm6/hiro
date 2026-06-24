@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>hiro - pricing</title>
+<meta name="description" content="Built for universities. Loved by students. Hiro pricing: university contracts, premium student features, and attorney referrals.">
+<link rel="icon" href="assets/logo/hiro_app_icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<script>
+/* apply saved theme before paint */
+(function(){try{var t=localStorage.getItem('hiro-theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}})();
+</script>
+</head>
+<body>
+
+<!-- ============================ NAV ============================ -->
+<header class="nav">
+  <div class="nav__inner">
+    <a class="brand" href="index.html" aria-label="hiro home">
+      <svg width="74" height="28" viewBox="0 0 144 56" role="img" aria-hidden="true">
+        <text x="3" y="42" font-family="Georgia,serif" font-size="40" font-weight="700" fill="currentColor">hiro</text>
+        <path d="M6 48 Q70 58 124 42" stroke="#E8581A" stroke-width="3" fill="none" stroke-linecap="round"/>
+        <path d="M116 38 L126 43 L118 49" stroke="#E8581A" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="index.html">Overview</a>
+      <a href="students.html">Students</a>
+      <a href="employers.html">Employers</a>
+      <a href="universities.html">Universities</a>
+      <a href="pricing.html" class="is-active">Pricing</a>
+      <a href="about.html">About</a>
+    </nav>
+    <div class="nav__cta">
+      <a href="#" class="nav__signin">Sign in</a>
+      <a href="#demo" class="nav__demo">Book a demo <span aria-hidden="true">→</span></a>
+      <button class="nav__burger" aria-label="Open menu" aria-expanded="false">☰</button>
+    </div>
+  </div>
+  <nav class="nav__mobile" aria-label="Mobile">
+    <a href="index.html">Overview</a>
+    <a href="students.html">Students</a>
+    <a href="employers.html">Employers</a>
+    <a href="universities.html">Universities</a>
+    <a href="pricing.html" class="is-active">Pricing</a>
+    <a href="about.html">About</a>
+    <a href="#demo">Book a demo →</a>
+  </nav>
+</header>
+
+<!-- ============================ HERO ============================ -->
+<section class="hero">
+  <div class="hero__inner" style="grid-template-columns:1fr;text-align:center">
+    <div class="hero__copy" style="max-width:760px;margin:0 auto">
+      <span class="eyebrow"><span class="dot"></span>Pricing</span>
+      <h1 class="display">Built for universities. <span class="accent">Loved by students.</span></h1>
+      <p class="lede" style="margin:0 auto">Free for the pilot cohort. Simple after that, a recurring contract the program already has budget for, and optional upgrades that activate later.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ PLANS ============================ -->
+<section class="section--tight">
+  <div class="wrap">
+    <div class="price-grid reveal">
+      <div class="pcard pcard--feat">
+        <div class="pcard__tag"><span class="pill pill--or">Free pilot for first cohort</span></div>
+        <div class="pcard__k">University</div>
+        <div class="pcard__h">Annual contract</div>
+        <div class="pcard__price"><span class="num">$10-15K</span><small>/year</small></div>
+        <div class="pcard__note">Recurring annual contract. Narrowed by cohort size and PM hours saved.</div>
+        <ul>
+          <li>Discover &amp; match for every student</li>
+          <li>Employer &amp; PM toolkit, end-to-end</li>
+          <li>Allocation map + demand intelligence</li>
+          <li>OPT/visa countdown tracking</li>
+          <li>Auto-booking across three calendars</li>
+          <li>Weekly metrics + time-to-placement</li>
+          <li>30-day termination + full data export</li>
+          <li>Dedicated channel + 48h bug fixes</li>
+        </ul>
+        <a href="#" class="btn btn--primary">Start the pilot →</a>
+      </div>
+
+      <div class="pcard">
+        <div class="pcard__k">Premium student</div>
+        <div class="pcard__h">For students who want more</div>
+        <div class="pcard__price"><span class="num">$19-29</span><small>/month</small></div>
+        <div class="pcard__note">Activates post-pilot. Free for all students during the pilot.</div>
+        <ul>
+          <li>Everything in the student app</li>
+          <li>AI mock interviews</li>
+          <li>AI advisor check-ins</li>
+          <li>Priority H-1B playbook + document vault</li>
+          <li>Unlimited daily swipes</li>
+        </ul>
+        <a href="#" class="btn btn--ghost">Notify me</a>
+      </div>
+    </div>
+
+    <div class="price-foot reveal">
+      <p><b>Attorney referrals.</b> When a student is ready for H-1B, we hand off to an in-network immigration attorney, $500-1.5K per referral. Free first consult for the student.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ CLOSING CTA ============================ -->
+<section class="section" id="demo">
+  <div class="wrap">
+    <div class="cta-band reveal">
+      <span class="eyebrow"><span class="dot"></span>Talk to us</span>
+      <h2>Run one cohort with us. <span class="accent">Free.</span></h2>
+      <p>See the university view and what a pilot actually looks like.</p>
+      <div class="btn-row">
+        <a href="#" class="btn btn--primary">Book a demo <span class="arr" aria-hidden="true">→</span></a>
+        <a href="universities.html" class="btn btn--ghost" style="color:#fff;border-color:rgba(255,255,255,.3)">See the university view</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ FOOTER ============================ -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__cols">
+      <div class="footer__brand">
+        <a class="brand" href="index.html" aria-label="hiro home">
+          <svg width="74" height="28" viewBox="0 0 144 56" aria-hidden="true"><text x="3" y="42" font-family="Georgia,serif" font-size="40" font-weight="700" fill="currentColor">hiro</text><path d="M6 48 Q70 58 124 42" stroke="#E8581A" stroke-width="3" fill="none" stroke-linecap="round"/><path d="M116 38 L126 43 L118 49" stroke="#E8581A" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <p>Your career. Your path. Your move. The career operating system from first course to H-1B.</p>
+      </div>
+      <div class="footer__col">
+        <h6>Product</h6>
+        <a href="index.html#how">The gap</a>
+        <a href="index.html#how">The matrix</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="#demo">Book a demo</a>
+      </div>
+      <div class="footer__col">
+        <h6>Personas</h6>
+        <a href="students.html">Students</a>
+        <a href="employers.html">Employers</a>
+        <a href="universities.html">Universities</a>
+      </div>
+      <div class="footer__col">
+        <h6>Company</h6>
+        <a href="about.html">About</a>
+        <a href="about.html#mission">Mission</a>
+        <a href="#demo">Talk to us</a>
+      </div>
+    </div>
+    <div class="footer__bot">
+      <p>© 2026 hiro. Built for international talent.</p>
+      <p>Your career. Your path. Your move.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- theme toggle + social pill -->
+<button class="theme-toggle" aria-label="Switch theme" title="Toggle theme">
+  <span class="moon" aria-hidden="true">☾</span><span class="sun" aria-hidden="true">☀</span>
+</button>
+<div class="social-pill" aria-label="Social links">
+  <a href="#" aria-label="LinkedIn">in</a>
+  <a href="#" aria-label="Email">✉</a>
+</div>
+
+<script src="assets/app.js"></script>
+</body>
+</html>

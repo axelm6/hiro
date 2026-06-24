@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>hiro - your career, your path, your move</title>
+<meta name="description" content="Hiro is the career operating system for international students on OPT/H-1B, US employers, and US universities. One platform. Three sides. End-to-end from first course to H-1B.">
+<link rel="icon" href="assets/logo/hiro_app_icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<script>
+/* apply saved theme before paint */
+(function(){try{var t=localStorage.getItem('hiro-theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}})();
+</script>
+</head>
+<body>
+
+<!-- ============================ NAV ============================ -->
+<header class="nav">
+  <div class="nav__inner">
+    <a class="brand" href="index.html" aria-label="hiro home">
+      <svg width="74" height="28" viewBox="0 0 144 56" role="img" aria-hidden="true">
+        <text x="3" y="42" font-family="Georgia,serif" font-size="40" font-weight="700" fill="currentColor">hiro</text>
+        <path d="M6 48 Q70 58 124 42" stroke="#E8581A" stroke-width="3" fill="none" stroke-linecap="round"/>
+        <path d="M116 38 L126 43 L118 49" stroke="#E8581A" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="index.html" class="is-active">Overview</a>
+      <a href="students.html">Students</a>
+      <a href="employers.html">Employers</a>
+      <a href="universities.html">Universities</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="about.html">About</a>
+    </nav>
+    <div class="nav__cta">
+      <a href="#" class="nav__signin">Sign in</a>
+      <a href="#demo" class="nav__demo">Book a demo <span aria-hidden="true">→</span></a>
+      <button class="nav__burger" aria-label="Open menu" aria-expanded="false">☰</button>
+    </div>
+  </div>
+  <nav class="nav__mobile" aria-label="Mobile">
+    <a href="index.html" class="is-active">Overview</a>
+    <a href="students.html">Students</a>
+    <a href="employers.html">Employers</a>
+    <a href="universities.html">Universities</a>
+    <a href="pricing.html">Pricing</a>
+    <a href="about.html">About</a>
+    <a href="#demo">Book a demo →</a>
+  </nav>
+</header>
+
+<!-- ============================ HERO ============================ -->
+<section class="hero">
+  <div class="hero__inner">
+    <div class="hero__copy">
+      <span class="eyebrow"><span class="dot"></span>Built for every side of the table</span>
+      <h1 class="display">Your career. Your path. <span class="accent">Your move.</span></h1>
+      <p class="lede hero__lede">Hiro is the career operating system for international students on <b>OPT/H-1B</b>, US employers, and US universities. One platform. Three sides. <b>End-to-end from first course to H-1B.</b></p>
+      <div class="btn-row">
+        <a href="#demo" class="btn btn--primary">Book a demo <span class="arr" aria-hidden="true">→</span></a>
+        <a href="#how" class="btn btn--ghost">See how it works</a>
+      </div>
+      <div class="trust-row">
+        <span class="ti"><span class="dot"></span>Live pilot · UCI DCE ACP</span>
+        <span class="ti"><span class="dot"></span>Built for international talent</span>
+        <span class="ti"><span class="dot"></span>Free pilot cohort</span>
+      </div>
+    </div>
+
+    <div class="hero__art" aria-hidden="false">
+      <div class="phone-stack">
+
+        <!-- PS-1 : Employer cohort dashboard (e-during screen 1) -->
+        <div class="phone ps-1">
+          <div class="screen s-dk" role="img" aria-label="Employer cohort dashboard: 3 active interns, week 6, milestones at 72%, one flag raised.">
+            <div class="sb"><span>9:41</span><span>● ● ●</span></div>
+            <div class="hdr">
+              <svg width="58" height="22" viewBox="0 0 144 56" aria-hidden="true"><text x="3" y="42" font-family="Georgia,serif" font-size="40" font-weight="700" fill="#fff">hiro</text><path d="M6 48 Q70 58 124 42" stroke="#E8581A" stroke-width="3" fill="none" stroke-linecap="round"/><path d="M116 38 L126 43 L118 49" stroke="#E8581A" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <span class="s-pill s-gn">Active</span>
+            </div>
+            <div class="ttl">Salesforce · ACP cohort</div>
+            <div class="sub">3 active interns · week 6.</div>
+            <div class="kpi-grid">
+              <div class="kpi"><div class="kpi-n">3</div><div class="kpi-l">ACTIVE INTERNS</div></div>
+              <div class="kpi"><div class="kpi-n">72%</div><div class="kpi-l">MILESTONES</div></div>
+              <div class="kpi al"><div class="kpi-n">1</div><div class="kpi-l">FLAG RAISED</div></div>
+              <div class="kpi"><div class="kpi-n">2</div><div class="kpi-l">WKS TO MID</div></div>
+            </div>
+            <div class="cl">
+              <div class="cl-t">FLAGGED FOR YOU</div>
+              <div class="cl-d"><b>Wei Lin</b> · last feedback 14 days ago. AI suggests a 1:1 this week.</div>
+              <div class="cl-row"><div class="cl-btn pri">Book 1:1</div><div class="cl-btn sec">View intern</div></div>
+            </div>
+            <div class="tbar"><div class="ti-tab ac"><div class="td"></div>Home</div><div class="ti-tab">Interns</div><div class="ti-tab">Tools</div><div class="ti-tab">Profile</div><div class="ti-tab">Settings</div></div>
+          </div>
+        </div>
+
+        <!-- PS-2 : Student dashboard (s-before screen 1) -->
+        <div class="phone ps-2">
+          <div class="screen s-dk" role="img" aria-label="Student dashboard for Maya: 7 responses, 10 applications this week, 3 matches, an upcoming Salesforce interview.">
+            <div class="sb"><span>9:41</span><span>● ● ●</span></div>
+            <div class="hdr">
+              <svg width="58" height="22" viewBox="0 0 144 56" aria-hidden="true"><text x="3" y="42" font-family="Georgia,serif" font-size="40" font-weight="700" fill="#fff">hiro</text><path d="M6 48 Q70 58 124 42" stroke="#E8581A" stroke-width="3" fill="none" stroke-linecap="round"/><path d="M116 38 L126 43 L118 49" stroke="#E8581A" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <span class="s-pill s-or">OPT</span>
+            </div>
+            <div class="ttl">Welcome back, Maya</div>
+            <div class="sub">Your job hunt at a glance.</div>
+            <div class="kpi-grid">
+              <div class="kpi"><div class="kpi-n">7</div><div class="kpi-l">RESPONSES</div></div>
+              <div class="kpi"><div class="kpi-n">10</div><div class="kpi-l">APPS / WK</div></div>
+              <div class="kpi"><div class="kpi-n">50</div><div class="kpi-l">APPS / MO</div></div>
+              <div class="kpi al"><div class="kpi-n">3</div><div class="kpi-l">MATCHES</div></div>
+            </div>
+            <div class="cl">
+              <div class="cl-t">UPCOMING</div>
+              <div class="cl-d">Interview · Wed @ 4:00pm with <b>Salesforce</b></div>
+              <div class="cl-row"><div class="cl-btn pri">Prep</div><div class="cl-btn sec">Reschedule</div></div>
+            </div>
+            <div class="tbar"><div class="ti-tab ac"><div class="td"></div>Home</div><div class="ti-tab">Disc</div><div class="ti-tab">Today</div><div class="ti-tab">Profile</div><div class="ti-tab">Settings</div></div>
+          </div>
+        </div>
+
+        <!-- PS-3 : PM live dashboard (pm-during screen 1) -->
+        <div class="phone ps-3">
+          <div class="screen s-dk" role="img" aria-label="Program manager live dashboard: 47 students, 23 placements, 5 at risk, 4 OPT deadlines this month.">
+            <div class="sb"><span>9:41</span><span>● ● ●</span></div>
+            <div class="hdr">
+              <svg width="58" height="22" viewBox="0 0 144 56" aria-hidden="true"><text x="3" y="42" font-family="Georgia,serif" font-size="40" font-weight="700" fill="#fff">hiro</text><path d="M6 48 Q70 58 124 42" stroke="#E8581A" stroke-width="3" fill="none" stroke-linecap="round"/><path d="M116 38 L126 43 L118 49" stroke="#E8581A" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <span class="s-pill s-gn">Live</span>
+            </div>
+            <div class="ttl">Cohort in flight · Wk 6</div>
+            <div class="sub">47 students · 23 employers active.</div>
+            <div class="kpi-grid">
+              <div class="kpi"><div class="kpi-n">23</div><div class="kpi-l">PLACEMENTS</div></div>
+              <div class="kpi"><div class="kpi-n">18</div><div class="kpi-l">ON TRACK</div></div>
+              <div class="kpi al"><div class="kpi-n">5</div><div class="kpi-l">AT RISK</div></div>
+              <div class="kpi al"><div class="kpi-n">4</div><div class="kpi-l">OPT THIS MO</div></div>
+            </div>
+            <div class="cl">
+              <div class="cl-t">RED THIS WEEK</div>
+              <div class="cl-d"><b>Wei Lin</b> · no employer feedback in 14 days. Call recommended.</div>
+              <div class="cl-row"><div class="cl-btn pri">Call employer</div><div class="cl-btn sec">View student</div></div>
+            </div>
+            <div class="tbar"><div class="ti-tab ac"><div class="td"></div>Home</div><div class="ti-tab">Risks</div><div class="ti-tab">Visits</div><div class="ti-tab">Profile</div><div class="ti-tab">Settings</div></div>
+          </div>
+        </div>
+
+        <!-- floating callout chips -->
+        <div class="chip chip--a"><span class="chip__l">Match score</span><span class="chip__v">94%</span></div>
+        <div class="chip chip--b"><span class="chip__l">PM hours saved</span><span class="chip__v">12<small style="font-size:.9rem;">/wk</small></span></div>
+        <div class="chip chip--c"><span class="chip__l">OPT days left</span><span class="chip__v">184</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== 02 · THE GAP ====================== -->
+<section class="section" id="how">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow"><span class="dot"></span>02 · The industry gap</span>
+      <h2 class="h-sec">Every platform stops at <span class="accent">hired</span>.</h2>
+      <p class="sub-lede">Handshake, LinkedIn, Symplicity, every one of them lives in the <b style="color:var(--text)">before</b> column. They help you get the offer, then drop you. The internship, the visa, the path to H-1B is where international students are left alone. That's the gap.</p>
+    </div>
+
+    <div class="gap-grid reveal">
+      <div class="mtx">
+        <div class="mtx__cap"><h4>The industry today</h4><span class="pill pill--rd">6 of 9 empty</span></div>
+        <div class="mtx__board">
+          <div class="mtx__corner"></div>
+          <div class="mtx__col">Before</div><div class="mtx__col">During</div><div class="mtx__col">After</div>
+          <div class="mtx__row">Student</div>
+          <div class="mc mc--lite">Job board</div><div class="mc mc--empty">-</div><div class="mc mc--empty">-</div>
+          <div class="mtx__row">Employer</div>
+          <div class="mc mc--lite">Post a role</div><div class="mc mc--empty">-</div><div class="mc mc--empty">-</div>
+          <div class="mtx__row">University</div>
+          <div class="mc mc--lite">Dashboard</div><div class="mc mc--empty">-</div><div class="mc mc--empty">-</div>
+        </div>
+      </div>
+      <div class="mtx">
+        <div class="mtx__cap"><h4>hiro</h4><span class="pill pill--gn">9 of 9 filled</span></div>
+        <div class="mtx__board">
+          <div class="mtx__corner"></div>
+          <div class="mtx__col">Before</div><div class="mtx__col">During</div><div class="mtx__col">After</div>
+          <div class="mtx__row">Student</div>
+          <div class="mc mc--full">Discover &amp; match</div><div class="mc mc--full">Internship active</div><div class="mc mc--full">Visa pathway</div>
+          <div class="mtx__row">Employer</div>
+          <div class="mc mc--full">Hire on intent</div><div class="mc mc--full">Manage talent</div><div class="mc mc--full">Sponsor &amp; convert</div>
+          <div class="mtx__row">University</div>
+          <div class="mc mc--full">Allocate &amp; plan</div><div class="mc mc--full">Cohort in flight</div><div class="mc mc--full">Outcomes &amp; story</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ====================== 03 · THE MATRIX ====================== -->
+<section class="section">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow"><span class="dot"></span>03 · One platform · three sides · three stages</span>
+      <h2 class="h-sec">Hiro is built for <span class="accent">all nine</span>.</h2>
+      <p class="sub-lede">The same matrix, filled in. Tap a cell to see what each side gets at each stage, and jump straight to that part of the story.</p>
+    </div>
+
+    <div class="imtx reveal">
+      <div class="imtx__board">
+        <div class="imtx__hd imtx__hd--corner"></div>
+        <div class="imtx__hd">Before<small>pre-placement</small></div>
+        <div class="imtx__hd">During<small>active engagement</small></div>
+        <div class="imtx__hd">After<small>post-internship</small></div>
+
+        <!-- STUDENT -->
+        <div class="imtx__rh">Student</div>
+        <a class="icell" href="students.html#before">
+          <div class="icell__h">Discover &amp; match <span class="go">→</span></div>
+          <ul><li>Swipe jobs, visa-filtered</li><li>AI match score</li><li>Auto-book on mutual match</li></ul>
+        </a>
+        <a class="icell" href="students.html#during">
+          <div class="icell__h">Internship active <span class="go">→</span></div>
+          <ul><li>Live milestone tracker</li><li>Manager feedback</li><li>Weekly AI check-ins</li></ul>
+        </a>
+        <a class="icell" href="students.html#after">
+          <div class="icell__h">Visa pathway <span class="go">→</span></div>
+          <ul><li>OPT countdown</li><li>Ranked visa paths</li><li>H-1B playbook + attorney</li></ul>
+        </a>
+
+        <!-- EMPLOYER -->
+        <div class="imtx__rh">Employer</div>
+        <a class="icell" href="employers.html#before">
+          <div class="icell__h">Hire on intent <span class="go">→</span></div>
+          <ul><li>Quarterly ACP alerts</li><li>AI-drafted listings</li><li>Swipe pre-vetted candidates</li></ul>
+        </a>
+        <a class="icell" href="employers.html#during">
+          <div class="icell__h">Manage talent <span class="go">→</span></div>
+          <ul><li>Supervisor toolkit</li><li>Live milestone %</li><li>AI flags issues early</li></ul>
+        </a>
+        <a class="icell" href="employers.html#after">
+          <div class="icell__h">Sponsor &amp; convert <span class="go">→</span></div>
+          <ul><li>Conversion data</li><li>3/6/9-month checkpoints</li><li>Sponsorship pathway</li></ul>
+        </a>
+
+        <!-- UNIVERSITY -->
+        <div class="imtx__rh">University</div>
+        <a class="icell" href="universities.html#before">
+          <div class="icell__h">Allocate &amp; plan <span class="go">→</span></div>
+          <ul><li>Allocation map</li><li>Employer scheduling</li><li>Demand intelligence</li></ul>
+        </a>
+        <a class="icell" href="universities.html#during">
+          <div class="icell__h">Cohort in flight <span class="go">→</span></div>
+          <ul><li>Live placements</li><li>Risk alerts</li><li>OPT countdowns</li></ul>
+        </a>
+        <a class="icell" href="universities.html#after">
+          <div class="icell__h">Outcomes &amp; story <span class="go">→</span></div>
+          <ul><li>Placement KPIs</li><li>Alumni success stories</li><li>Marketing-ready data</li></ul>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ====================== 04 · WHY NOW ====================== -->
+<section class="section">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow"><span class="dot"></span>04 · Why now</span>
+      <h2 class="h-sec">Three forces, <span class="accent">one window</span>.</h2>
+      <p class="sub-lede">The pieces that make Hiro possible only lined up recently. Building it a year ago would have been too early. Waiting a year is too late.</p>
+    </div>
+    <div class="cards-3 reveal">
+      <div class="fcard">
+        <div class="fcard__k">AI</div>
+        <div class="fcard__h">Matching finally works</div>
+        <p>Resume parsing, match scoring, and listing drafts that used to need a recruiter now run in seconds. The swipe is only useful because the ranking behind it is good.</p>
+      </div>
+      <div class="fcard">
+        <div class="fcard__k">Visa</div>
+        <div class="fcard__h">The stakes have never been higher</div>
+        <p>OPT timelines and H-1B odds drive every decision an international student makes. No incumbent tracks them. We make the deadline impossible to miss.</p>
+      </div>
+      <div class="fcard">
+        <div class="fcard__k">Legacy</div>
+        <div class="fcard__h">The incumbents are dashboards</div>
+        <p>The incumbents show the work; they don't do it. Universities have paid for inadequate before, which makes the wedge a replacement, not a new line item.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== 05 · PILOT CTA ====================== -->
+<section class="section" id="demo">
+  <div class="wrap">
+    <div class="cta-band reveal">
+      <span class="eyebrow"><span class="dot"></span>05 · UCI DCE pilot is live</span>
+      <h2>Run one cohort with us. <span class="accent">Free.</span></h2>
+      <p>One ACP cohort, end-to-end on Hiro, at no cost. Keep your current system in parallel as a safety net. Hit two of three success metrics and it converts to a paid annual contract. Miss, and you keep everything we built.</p>
+      <div class="btn-row">
+        <a href="#" class="btn btn--primary">Talk to the team <span class="arr" aria-hidden="true">→</span></a>
+        <a href="universities.html" class="btn btn--ghost" style="color:#fff;border-color:rgba(255,255,255,.3)">See the university view</a>
+      </div>
+      <div class="cta-metrics">
+        <div class="m"><b>↓ Time</b><span>to placement</span></div>
+        <div class="m"><b>10+ hrs</b><span>saved per week</span></div>
+        <div class="m"><b>NPS ≥ 50</b><span>student satisfaction</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ FOOTER ============================ -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__cols">
+      <div class="footer__brand">
+        <a class="brand" href="index.html" aria-label="hiro home">
+          <svg width="74" height="28" viewBox="0 0 144 56" aria-hidden="true"><text x="3" y="42" font-family="Georgia,serif" font-size="40" font-weight="700" fill="currentColor">hiro</text><path d="M6 48 Q70 58 124 42" stroke="#E8581A" stroke-width="3" fill="none" stroke-linecap="round"/><path d="M116 38 L126 43 L118 49" stroke="#E8581A" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <p>Your career. Your path. Your move. The career operating system from first course to H-1B.</p>
+      </div>
+      <div class="footer__col">
+        <h6>Product</h6>
+        <a href="index.html#how">The gap</a>
+        <a href="index.html#how">The matrix</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="#demo">Book a demo</a>
+      </div>
+      <div class="footer__col">
+        <h6>Personas</h6>
+        <a href="students.html">Students</a>
+        <a href="employers.html">Employers</a>
+        <a href="universities.html">Universities</a>
+      </div>
+      <div class="footer__col">
+        <h6>Company</h6>
+        <a href="about.html">About</a>
+        <a href="about.html#mission">Mission</a>
+        <a href="#demo">Talk to us</a>
+      </div>
+    </div>
+    <div class="footer__bot">
+      <p>© 2026 hiro. Built for international talent.</p>
+      <p>Your career. Your path. Your move.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- theme toggle + social pill -->
+<button class="theme-toggle" aria-label="Switch theme" title="Toggle theme">
+  <span class="moon" aria-hidden="true">☾</span><span class="sun" aria-hidden="true">☀</span>
+</button>
+<div class="social-pill" aria-label="Social links">
+  <a href="#" aria-label="LinkedIn">in</a>
+  <a href="#" aria-label="Email">✉</a>
+</div>
+
+<script src="assets/app.js"></script>
+</body>
+</html>
