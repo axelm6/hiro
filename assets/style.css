@@ -150,6 +150,11 @@ img{max-width:100%;display:block;}
 .brand{display:flex;align-items:center;gap:9px;flex-shrink:0;}
 .brand svg{display:block;}
 .brand__word{font-family:var(--serif);font-size:1.5rem;font-weight:700;color:var(--text);letter-spacing:-.5px;}
+.brand__logo{height:30px;width:auto;display:block;}
+.brand__logo--dark{display:none;}
+[data-theme="dark"] .brand__logo--light{display:none;}
+[data-theme="dark"] .brand__logo--dark{display:block;}
+.footer__brand .brand__logo{height:34px;}
 .nav__links{display:flex;align-items:center;gap:6px;}
 .nav__links a{
   font-size:.9rem;color:var(--text-2);padding:8px 13px;border-radius:8px;
